@@ -961,7 +961,7 @@ td {
 /*記事ページstyle*/
 .article_mv_box {
 	position: relative;
-	max-width: 1400px;
+	max-width: 1800px;
 	width: 100%;
 }
 
@@ -1376,6 +1376,10 @@ td {
 		right: 14px;
 	}
 
+	.accent_color, .top-navigation.active {
+		background-color: #000000 !important;
+	}
+
 	/*select_box*/
 
 	#select_box .selec_work .selec_item {
@@ -1452,6 +1456,10 @@ td {
 	}
 
 	/*記事ページstyle*/
+
+	#second_container h2 {
+		font-size: 1.5rem;
+	}
 
 	.article_mv_box {
 		position: inherit;
@@ -1557,27 +1565,35 @@ td {
 	margin:0 !important;
 }
 
-.item {
-	width: 100%;
-	list-style:none;
-	margin-bottom: 40px;
-}
-
 .item img {
 	width: 100%;
 }
 
-@media screen and (min-width: 667px) {
-	.item {
-		width: 300px;
-		margin-bottom: 0;
-	}
+.item {
+	width: 300px;
+	margin-bottom: 0;
+	list-style: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	.item {
 		width: 400px;
 		margin-bottom: 0;
 	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.item {
+		width: 100%;
+		list-style:none;
+		margin-bottom: 40px;
+	}
+}
+
+/*single*/
+.blog_container{
+	max-width: 1000px;
+	width: 100%;
 }
 
