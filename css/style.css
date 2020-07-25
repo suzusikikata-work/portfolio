@@ -901,21 +901,60 @@ td {
 .thumbnail_box {
 	display: flex;
 	flex-wrap: wrap;
+	margin: -20px;
 }
 
 .thumbnail_box .thumbnail_list {
 	width: 50%;
+	margin-bottom: 0px;
+	padding: 20px;
+}
+
+
+.bl_selectBlock_wrapper_wrapper input{
+	display: none;
+}
+
+.js_target{
+	display: none;
+}
+
+.js_target.js_selected{
 	display: flex;
+}
+
+.bl_selectBlock_wrapper_wrapper label {
+	border: 1px solid #fff;
+	padding: 6px 10px;
+	font-size: 13px;
+}
+
+
+.bl_selectBlock_wrapper_wrapper input[type="checkbox"]:checked + label {
+	background: #eeeeee;
+	color: #7a7a7a;
+}
+
+.bl_selectBlock_wrapper_wrapper{
+	margin: 20px 0;
+}
+
+
+
+.js_release{
+	cursor: pointer;
 	margin-bottom: 40px;
+	font-size: 12px;
+	border: 1px solid #fff;
+	display: inline-block;
+	padding: 6px 20px;
+	border-radius: 20px;
 }
 
-.thumbnail_box .thumbnail_list:nth-child(odd) {
-	padding-right: 20px;
+.art_selectBlock_check{
+	margin-right: 20px;
 }
 
-.thumbnail_box .thumbnail_list:nth-child(even) {
-	padding-left: 20px;
-}
 
 .thumbnail_box .article_img{
 	width: 50%;
@@ -1114,7 +1153,6 @@ td {
 	/*article_style*/
 	.thumbnail_box .thumbnail_list {
 		width: 50%;
-		display: block;
 	}
 
 	.thumbnail_box .article_img{
@@ -1125,6 +1163,15 @@ td {
 		display: block;
 		width: 100%;
 		height: 280px;
+	}
+
+	.thumbnail_box .article_lead h2 {
+		height: 40%;
+	}
+
+	.js_target.js_selected {
+		display: block;
+
 	}
 }
 
@@ -1446,13 +1493,18 @@ td {
 		height: 250px;
 	}
 
-
-	.thumbnail_box .thumbnail_list:nth-child(odd) {
-		padding-right: 0;
+	.thumbnail_box .thumbnail_list {
+		padding: 0px;
+		margin-bottom: 20px;
 	}
 
-	.thumbnail_box .thumbnail_list:nth-child(even) {
-		padding-left: 0;
+	.art-input-box {
+		margin: 40px 0;
+	}
+
+	.art_selectBlock_check label .el_checkbox {
+		width: 20px;
+		height: 20px;
 	}
 
 	/*記事ページstyle*/
@@ -1570,23 +1622,22 @@ td {
 }
 
 .item {
-	width: 300px;
+	width: 400px;
 	margin-bottom: 0;
 	list-style: none;
 }
 
 @media screen and (max-width: 1024px) {
 	.item {
-		width: 400px;
+		width: 300px;
 		margin-bottom: 0;
 	}
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768.0px) {
 	.item {
 		width: 100%;
-		list-style:none;
 		margin-bottom: 40px;
 	}
 }

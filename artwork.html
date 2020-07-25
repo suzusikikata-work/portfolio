@@ -71,11 +71,16 @@
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/lity.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<script
+<!-- <script
 	src="https://code.jquery.com/jquery-3.3.1.min.js"
 	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	crossorigin="anonymous">
-</script>
+</script> -->
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 <script src="./js/common.js"></script>
 <script src="./js/lity.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -160,9 +165,36 @@
 				一覧
 			</h2>
 
+
+			<div class="el_searchResult">
+				<span class="el_searchResult_nume js_numerator"></span>件／全<span class="el_searchResult_deno js_denominator"></span>件
+			</div>
+
+			<div class="bl_selectBlock_wrapper_wrapper">
+				<div class="art-input-box js_conditions" data-type="type">
+					<span class="art_selectBlock_check"><input id="type-fairy" type="checkbox" name="type" value="fairy-tale">
+						<label for="type-fairy">
+						<span class="el_checkbox"></span>
+							fairy-tale
+						</label>
+					</span>
+
+					<span class="art_selectBlock_check"><input id="type-student" type="checkbox" name="type" value="student">
+						<label for="type-student">
+						<span class="el_checkbox"></span>
+							student
+						</label>
+					</span>
+
+				</div>
+			</div>
+
+			<div class="bl_selectBlock_release js_release">すべての選択を解除</div>
+
+
 			<div class="thumbnail_box">
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="student">
 					<div class="article_img">
 						<img src="./article/art-1/img/art-1_s.jpg" art="Momotaro">
 					</div>
@@ -183,7 +215,7 @@
 					</div>
 				</div>
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="fairy-tale">
 					<div class="article_img">
 						<img src="./article/art-2/img/art-2_s.jpg" art="The Bremen town musicians">
 					</div>
@@ -204,7 +236,7 @@
 					</div>
 				</div>
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="fairy-tale">
 					<div class="article_img">
 						<img src="./article/art-3/img/art-3_s.jpg" art="Little Red Riding Hood">
 					</div>
@@ -225,7 +257,7 @@
 					</div>
 				</div>
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="fairy-tale">
 					<div class="article_img">
 						<img src="./article/art-4/img/art-4_s.jpg" art="Red Demon cried">
 					</div>
@@ -246,7 +278,7 @@
 					</div>
 				</div>
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="fairy-tale">
 					<div class="article_img">
 						<img src="./article/art-5/img/art-5_s.jpg" art="Tangled">
 					</div>
@@ -267,7 +299,7 @@
 					</div>
 				</div>
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="fairy-tale">
 					<div class="article_img">
 						<img src="./article/art-6/img/art-6_s.jpg" art="Puss in Boots">
 					</div>
@@ -288,7 +320,7 @@
 					</div>
 				</div>
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="fairy-tale">
 					<div class="article_img">
 						<img src="./article/art-7/img/art-7_s.jpg" art="Urashima Taro">
 					</div>
@@ -309,7 +341,7 @@
 					</div>
 				</div>
 
-				<div class="thumbnail_list">
+				<div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="fairy-tale">
 					<div class="article_img">
 						<img src="./article/art-8/img/art-8_s.jpg" art="Pinocchio">
 					</div>

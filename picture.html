@@ -952,7 +952,35 @@
 		</div>
 	</footer>
 
-
+<script type="text/javascript">
+	
+jQuery(function($){
+  var sp = 667;  //SPのサイズを設定
+  
+  function masonry_execute() {
+    var $demo2 = $('#picture_box');    //コンテナとなる要素を指定
+  
+    if ( $('html').width() < sp ) {    //ウィンドウ幅が480px以下だった場合、masonry破棄 (無効)
+      $demo2.masonry('destroy');
+    } else {                              //ウィンドウ幅が480px以上だった場合、masonry適応
+      $demo2.imagesLoaded(function(){
+        $demo2.masonry({
+	      itemSelector: '.item',  //コンテンツを指定
+	      columnWidth: 0,    //カラム幅を設定
+	      fitWidth: true,          //コンテンツ数に合わせ親の幅を自動調整
+	      resize: true,
+	      gutter:0,
+        });
+      });
+    }
+  }
+  masonry_execute();  //masonry_execute関数を実行
+  
+  $(window).resize(function(){  //ウィンドウがリサイズされたら、再度masonry_execute関数を実行
+    masonry_execute();
+  });
+});
+</script>
 
 </body>
 
