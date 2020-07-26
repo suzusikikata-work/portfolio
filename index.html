@@ -83,7 +83,7 @@
 
 </head>
 
-<body>
+<body id="top-contents">
 
 	<header class="navigation accent_color">
 		<div id="nav-toggle">
@@ -158,31 +158,121 @@
 			</div>
 		</div>
 
-		<h2>INSTAGRAM</h2>
+		<h2>NEW ART WORK</h2>
 
-		<section id="promotion_box">
+		<div id="new_art"></div>
 
-			<div class="promotion_visual">
-				<img src="./img/insta_img.jpg" alt="suzusikikata insta">
+
+
+<script>
+jQuery(function($){
+	$('#new_art').load('./artwork.html .new-art');
+});
+</script>
+
+<style>
+#top-contents .js_target {
+	display: block;
+}
+
+#top-contents #new_art {
+	background-color: #1b1b1b;
+}
+
+#top-contents #new_art .article_img{
+	padding: 40px;
+}
+
+#top-contents #new_art .article_img img{
+	max-width: 600px;
+	width: 100%;
+}
+
+#top-contents #new_art h2{
+	text-align: left;
+	margin: 60px 0px;
+}
+
+#top-contents .new-art{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#top-contents #new_art .article_lead{
+	padding: 40px 40px 40px 0;
+}
+
+@media screen and (max-width: 1000px) {
+	#top-contents #new_art .article_img{
+		padding: 40px;
+		max-width: 400px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768.0px) {
+	#top-contents .new-art {
+		display: block;
+		padding: 40px;
+	}
+
+	#top-contents #new_art .article_img {
+		padding: 0;
+		max-width: 100%;
+		width: 100%;
+	}
+
+	#top-contents #new_art .article_img img {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 414px){
+	#top-contents .new-art {
+		padding: 20px;
+	}
+
+}
+
+</style>
+
+
+
+		<h2>ART WORK</h2>
+
+		<section class="case_box">
+
+			<div class="font_24">
+				<p>PRIVATE ART WORK</p>
 			</div>
 
-			<div class="promotion_lead font_14">
-				<p>
-					SUZUSIKIKATAのInstagramになります。<br>
-					趣味で撮影した写真や、アートワークなどを載せています。<br>
-					是非ともご覧ください。
-				</p>
+			<div class="selec_list">
+				<a href="./article/art-009/img/art-009_l.jpg" data-lity>
+					<img src="./article/art-009/img/art-009_s.jpg" alt="">
+				</a>
 
-				<div class="button_box">
-					<a class="button_basic" href="https://www.instagram.com/suzusikikata" target="_blank">SUZUSIKIKATA instagram</a>
-				</div>
+				<a href="./article/art-007/img/art-007_l.jpg" data-lity>
+					<img src="./article/art-007/img/art-007_s.jpg" alt="">
+				</a>
+
+				<a href="./article/art-005/img/art-005_l.jpg" data-lity>
+					<img src="./article/art-005/img/art-005_s.jpg" alt="">
+				</a>
+
+				<a href="./article/art-001/img/art-001_l.jpg" data-lity>
+					<img src="./article/art-001/img/art-001_s.jpg" alt="">
+				</a>
 			</div>
+
+			<a class="button_basic center mt_40" href="./artwork.html">ART WORK</a>
 
 		</section>
 
 		<h2>PICTURE</h2>
 
-		<section id="case_box">
+		<section class="case_box">
 
 			<div class="font_24">
 				<p>GALLERY PHOTO</p>
@@ -207,6 +297,29 @@
 			</div>
 
 			<a class="button_basic center mt_40" href="./picture.html">PICTURE</a>
+
+		</section>
+
+
+		<h2>INSTAGRAM</h2>
+
+		<section id="promotion_box">
+
+			<div class="promotion_visual">
+				<img src="./img/insta_img.jpg" alt="suzusikikata insta">
+			</div>
+
+			<div class="promotion_lead font_14">
+				<p>
+					SUZUSIKIKATAのInstagramになります。<br>
+					趣味で撮影した写真や、アートワークなどを載せています。<br>
+					是非ともご覧ください。
+				</p>
+
+				<div class="button_box">
+					<a class="button_basic" href="https://www.instagram.com/suzusikikata" target="_blank">SUZUSIKIKATA instagram</a>
+				</div>
+			</div>
 
 		</section>
 

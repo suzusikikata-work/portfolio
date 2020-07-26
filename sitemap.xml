@@ -23,7 +23,13 @@
 <url>
   <loc>https://suzusikikata.work/artwork.html</loc>
   <priority>0.8</priority>
-  <lastmod>2020-07-25T22:27:22+09:00</lastmod>
+  <lastmod>2020-07-26T21:58:35+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-011/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-26T21:56:46+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
@@ -35,7 +41,7 @@
 <url>
   <loc>https://suzusikikata.work/article/art-009/shingle.html</loc>
   <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:47+09:00</lastmod>
+  <lastmod>2020-07-26T21:56:48+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
