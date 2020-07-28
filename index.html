@@ -164,75 +164,66 @@
 
 
 
+
 <script>
 jQuery(function($){
-	$('#new_art').load('./artwork.html .new-art');
+	$('#new_art').load('./new.html');
 });
 </script>
 
 <style>
 #top-contents .js_target {
-	display: block;
-}
-
-#top-contents #new_art {
-	background-color: #1b1b1b;
-}
-
-#top-contents #new_art .article_img{
-	padding: 40px;
-}
-
-#top-contents #new_art .article_img img{
-	max-width: 600px;
-	width: 100%;
-}
-
-#top-contents #new_art h2{
-	text-align: left;
-	margin: 60px 0px;
-}
-
-#top-contents .new-art{
-	width: 100%;
 	display: flex;
-	align-items: center;
+}
+#top-contents .thumbnail_list {
+	position: relative;
+}
+#top-contents .thumbnail_list:before {
+	border-color: red;
+	border-style: solid;
+	border-width: 20px 20px 0 0;
+	content: "";
+	height: 0;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 0;
+	z-index: 2;
+	border-radius: 100px;
+}
+@media screen and (max-width: 1400px) {
+	#top-contents .js_target {
+		display: block;
+	}
 }
 
-#top-contents #new_art .article_lead{
-	padding: 40px 40px 40px 0;
-}
+@media screen and (max-width: 1200px) {
+	#top-contents .thumbnail_box .thumbnail_list {
+		width: 50%;
+	}
+]
 
 @media screen and (max-width: 1000px) {
-	#top-contents #new_art .article_img{
-		padding: 40px;
-		max-width: 400px;
-		width: 100%;
-	}
+
 }
 
 @media screen and (max-width: 768.0px) {
-	#top-contents .new-art {
-		display: block;
-		padding: 40px;
+
+	#top-contents .thumbnail_box .thumbnail_list {
+		width: 100% !important;
 	}
 
-	#top-contents #new_art .article_img {
+	#top-contents .thumbnail_box {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
 		padding: 0;
-		max-width: 100%;
-		width: 100%;
-	}
-
-	#top-contents #new_art .article_img img {
-		max-width: 100%;
 		width: 100%;
 	}
 }
 
 @media screen and (max-width: 414px){
-	#top-contents .new-art {
-		padding: 20px;
-	}
+
 
 }
 

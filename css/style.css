@@ -949,6 +949,7 @@ td {
 	display: inline-block;
 	padding: 6px 20px;
 	border-radius: 20px;
+	margin-top: 20px;
 }
 
 .art_selectBlock_check{
@@ -977,10 +978,10 @@ td {
 	color: #9c9c9c;
 }
 
-.thumbnail_box .category{
+/*.thumbnail_box .category{
 	height: 10%;
 }
-
+*/
 .thumbnail_box .article_lead h2{
 	margin: 0 !important;
 	height: 50%;
@@ -1126,7 +1127,28 @@ td {
 }
 
 @media screen and (max-width: 1400px) {
+	.js_target.js_selected {
+		display: block;
+	}
 
+	.thumbnail_box .thumbnail_list {
+		width: 25%;
+		padding-bottom: 0;
+	}
+
+	.thumbnail_box .article_img {
+		width: 100%;
+	}
+
+	.thumbnail_box .article_lead {
+		width: 100%;
+		height: 260px;
+	}
+
+	.thumbnail_box .article_lead h2 {
+		height: 35%;
+		padding: 0;
+	}
 }
 
 @media screen and (max-width: 1360px) {
@@ -1152,7 +1174,7 @@ td {
 @media screen and (max-width: 1200px) {
 	/*article_style*/
 	.thumbnail_box .thumbnail_list {
-		width: 50%;
+		width: 33%;
 	}
 
 	.thumbnail_box .article_img{
@@ -1165,10 +1187,10 @@ td {
 		height: 280px;
 	}
 
-	.thumbnail_box .article_lead h2 {
+/*	.thumbnail_box .article_lead h2 {
 		height: 40%;
 	}
-
+*/
 	.js_target.js_selected {
 		display: block;
 
@@ -1348,6 +1370,15 @@ td {
 		padding: 20px;
 	}
 
+	/*article_style*/
+	.thumbnail_box .thumbnail_list {
+		width: 50%;
+	}
+
+	.thumbnail_box .article_lead {
+		height: auto;
+	}
+
 	/*footer*/
 	footer .footer_box {
 		width: 100%;
@@ -1365,7 +1396,7 @@ td {
 @media screen and (max-width: 768.0px) {
 
 	.wi_50 {
-		width: 100%;
+		width: 100% !important;
 	}
 
 	.font_10 {
@@ -1454,6 +1485,11 @@ td {
 
 	#second_container {
 		padding: 40px;
+	}
+
+	.thumbnail_box .article_lead h2 {
+		height: auto;
+		padding: 0;
 	}
 
 	/*list_box*/
@@ -1604,8 +1640,24 @@ td {
 	#second_container {
 		padding: 20px;
 	}
+
 }
 
+@media screen and (max-width: 360.0px) {
+	.art_selectBlock_check {
+		margin-right: 0;
+		display: block;
+		margin-bottom: 16px;
+	}
+
+	.bl_selectBlock_wrapper_wrapper label {
+		border: 1px solid #fff;
+		padding: 12px 10px;
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+}
 /*picture*/
 
 
@@ -1665,3 +1717,6 @@ width: 100%;
 height: 100%;
 }
 
+.lity-image img {
+	width: auto !important;
+}
