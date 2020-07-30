@@ -1515,8 +1515,8 @@ td {
 	}
 
 	th{
-		background-color: #eeeeee;
 		padding: 10px;
+		border: 1px solid white;
 	}
 
 	/*article_style*/
@@ -1535,7 +1535,7 @@ td {
 	}
 
 	.art-input-box {
-		margin: 40px 0;
+		margin: 40px 0 0 0;
 	}
 
 	.art_selectBlock_check label .el_checkbox {
@@ -1562,6 +1562,13 @@ td {
 		padding: 0 0 0 44px;
 		right: 0;
 		position: inherit;
+	}
+
+	.art_selectBlock_check {
+		margin-right: 20px;
+		width: 40%;
+		display: inline-grid;
+		margin-bottom: 20px;
 	}
 
 	/*contact*/

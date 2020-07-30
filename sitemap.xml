@@ -5,97 +5,126 @@
 <url>
   <loc>https://suzusikikata.work/</loc>
   <priority>1.0</priority>
-  <lastmod>2020-07-25T16:50:36+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:13+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2020-07-25T16:50:36+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:13+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/about.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2020-07-30T23:53:07+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/picture.html</loc>
   <priority>0.8</priority>
-  <lastmod>2020-07-25T15:23:04+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:13+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/artwork.html</loc>
   <priority>0.8</priority>
-  <lastmod>2020-07-26T21:58:35+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:13+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/info@suzusikikata.com</loc>
+  <priority>0.7</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-014/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:20+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-013/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:20+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-012/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/article/art-011/shingle.html</loc>
   <priority>0.7</priority>
-  <lastmod>2020-07-26T21:56:46+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/article/art-010/shingle.html</loc>
   <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:47+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/article/art-009/shingle.html</loc>
   <priority>0.7</priority>
-  <lastmod>2020-07-26T21:56:48+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://suzusikikata.work/article/art-001/shingle.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:44+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://suzusikikata.work/article/art-002/shingle.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2020-07-26T01:21:05+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://suzusikikata.work/article/art-003/shingle.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:45+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://suzusikikata.work/article/art-004/shingle.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:45+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://suzusikikata.work/article/art-005/shingle.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:45+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://suzusikikata.work/article/art-006/shingle.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:46+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://suzusikikata.work/article/art-007/shingle.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:46+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/article/art-008/shingle.html</loc>
   <priority>0.7</priority>
-  <lastmod>2020-07-26T01:20:47+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-007/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-006/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-005/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-004/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-003/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:19+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-002/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:18+09:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://suzusikikata.work/article/art-001/shingle.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-07-30T23:32:18+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://suzusikikata.work/article/index.html</loc>
   <priority>0.6</priority>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 
 </urlset>
