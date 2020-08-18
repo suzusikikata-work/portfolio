@@ -1580,6 +1580,16 @@ td {
 		width: 40%;
 	}
 
+	/*footer*/
+	footer .footer_box .footer_nav ul {
+		display: block;
+	}
+
+	footer .footer_box .footer_nav ul li {
+		margin-bottom: 20px;
+	}
+
+
 }
 
 
