@@ -4,6 +4,41 @@
  * style.css.
  */
 
+/* Loading Block */
+#loading {
+	width: 100vw;
+	height: 100vh;
+	transition: all 1s;
+	background-color: #1b1b1b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.spinner {
+	width: 100px;
+	height: 100px;
+	margin: 200px auto;
+	background-color: #fff;
+	border-radius: 100%;
+	animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+/* Loading Animation */
+@keyframes sk-scaleout {
+	0% {
+		transform: scale(0);
+	} 100% {
+		transform: scale(1.0);
+		opacity: 0;
+	}
+}
+
+/* Hide Loading Block */
+.loaded {
+	opacity: 0;
+	visibility: hidden;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -1737,3 +1772,62 @@ height: 100%;
 .lity-image img {
 	width: auto !important;
 }
+
+/*top art-work*/
+
+#top-contents .js_target {
+	display: flex;
+}
+#top-contents .thumbnail_list {
+	position: relative;
+}
+#top-contents .thumbnail_list:before {
+	border-color: red;
+	border-style: solid;
+	border-width: 20px 20px 0 0;
+	content: "";
+	height: 0;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 0;
+	z-index: 2;
+	border-radius: 100px;
+}
+@media screen and (max-width: 1400px) {
+	#top-contents .js_target {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#top-contents .thumbnail_box .thumbnail_list {
+		width: 50%;
+	}
+]
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 768.0px) {
+
+	#top-contents .thumbnail_box .thumbnail_list {
+		width: 100% !important;
+	}
+
+	#top-contents .thumbnail_box {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 414px){
+
+
+}
+
+

@@ -1,3 +1,17 @@
+// ローディング
+window.onload = function() {
+  const spinner = document.getElementById('loading');
+  spinner.classList.add('loaded');
+}
+
+// 共通パーツ
+$(function() {
+  $('#new_art').load('./common/new.html');
+  $('.navigation').load('https://suzusikikata.work/common/menu.html');
+  $('.footer_box').load('https://suzusikikata.work/common/footer.html');
+});
+
+
 // jsでトグルメニュー制御
 $(function() {
 	var $glovalNavi = $('.menu-trigger');
