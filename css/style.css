@@ -1050,6 +1050,7 @@ td {
 
 .article_mv_box .article_mv img{
 	width: 100%;
+	vertical-align: bottom;
 }
 
 /*contact*/

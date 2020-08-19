@@ -4,13 +4,6 @@ window.onload = function() {
   spinner.classList.add('loaded');
 }
 
-// 共通パーツ
-$(function() {
-  $('#new_art').load('./common/new.html');
-  $('.navigation').load('https://suzusikikata.work/common/menu.html');
-  $('.footer_box').load('https://suzusikikata.work/common/footer.html');
-});
-
 
 // jsでトグルメニュー制御
 $(function() {
@@ -68,6 +61,14 @@ $(function() {
 	$("img#randomimg").attr({"src":imgurl});
 
 });
+
+// 共通パーツ
+$(function() {
+  $('#new_art').load('./common/new.html');
+  $('.top-navigation').load('https://suzusikikata.work/common/menu.html');
+  $('.footer_box').load('https://suzusikikata.work/common/footer.html');
+});
+
 
 
 $(function(){
