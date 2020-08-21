@@ -801,7 +801,7 @@ footer .footer_box .footer_nav ul {
 }
 
 footer .footer_box .footer_nav ul li {
-	width: 100px;
+	margin-right: 40px;
 }
 
 footer .footer_box .footer_nav ul li a {
