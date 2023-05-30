@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jyunichi's Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                background-color: #fff;
+            }
+
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 50px;
+                background-color: #fff;
+                z-index: 9999;
+            }
+
+            nav #nav-toggle {
+                display: none;
+                width: 30px;
+                height: 22px;
+                position: absolute;
+                top: 50%;
+                left: 20px;
+                transform: translateY(-50%);
+            }
+
+            nav #nav-toggle div {
+                width: 100%;
+                height: 2px;
+                background-color: #333;
+                margin: 6px 0;
+            }
+
+            nav #nav-links {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            nav #nav-links li a {
+                text-decoration: none;
+                color: #333;
+            }
+
+            @media (max-width: 768px) {
+                nav #nav-toggle {
+                    display: block;
+                }
+
+                nav #nav-links {
+                    display: none;
+                }
+            }
+            #slider .slide {
+                width: 100%;
+                height: 400px;
+                overflow: hidden;
+            }
+
+            #slider .slide img {
+                width: 100%;
+                height: auto;
+            }
+
+            #work .work-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 20px;
+            }
+
+            #work .work-item img {
+                width: 100%;
+                height: auto;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const navToggle = document.querySelector('#nav-toggle');
+                const navLinks = document.querySelector('#nav-links');
+
+                navToggle.addEventListener('click', function () {
+                    navLinks.style.display =
+                        navLinks.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <div id="nav-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="slider">
+                <div class="slide">
+                    <img
+                        src="https://placehold.jp/272343/ffd803/640x400.png"
+                        alt="Slide 1"
+                    />
+                </div>
+                <div class="slide">
+                    <img
+                        src="https://placehold.jp/272343/ffd803/640x400.png"
+                        alt="Slide 2"
+                    />
+                </div>
+                <!-- Add More Slides as Needed -->
+            </section>
+            <section id="work">
+                <h2>Work</h2>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <img
+                            src="https://placehold.jp/272343/ffd803/640x400.png"
+                            alt="Work 1"
+                        />
+                        <p>Work 1 Description</p>
+                    </div>
+                    <!-- Add More Work Items as Needed -->
+                </div>
+            </section>
+
+            <section id="about">
+                <!-- About Content Goes Here -->
+            </section>
+            <section id="contact">
+                <!-- Contact Content Goes Here -->
+            </section>
+        </main>
+        <footer>
+            <!-- Footer Content Goes Here -->
+        </footer>
+    </body>
+</html>
