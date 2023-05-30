@@ -1,0 +1,1 @@
+/Users/sasakiryota/Desktop/private/suzusikikata.work/article/art-001/img/single.php
