@@ -26,6 +26,9 @@
         <li>
           <a href="https://suzusikikata.work/login-archive.php">ARCHIVE WORKS</a>
         </li>
+        <li>
+          <a href="https://suzusikikata.work/contact.php">CONTACT</a>
+        </li>
       </ul>
     </div>
 

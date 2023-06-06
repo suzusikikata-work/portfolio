@@ -22,11 +22,14 @@
       <li class="menu-artwork">
         <a href="https://suzusikikata.work/artwork.php">ART WORK</a>
       </li>
-      <li class="menu-work">
+      <li class="menu-product">
         <a href="https://suzusikikata.work/work.php">PRODUCT WORKS</a>
       </li>
-      <li class="menu-work">
+      <li class="menu-archive">
         <a href="https://suzusikikata.work/login-archive.php">ARCHIVE WORKS</a>
+      </li>
+      <li class="menu-contact">
+        <a href="https://suzusikikata.work/contact.php">CONTACT</a>
       </li>
       <li class="thema-btn">
         <!-- <button id="themeToggle">テーマを切り替える</button> -->
