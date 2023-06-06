@@ -39,12 +39,6 @@
         author | SUZUSIKIKATA<br>
       </p>
 
-
-      <p class="font_14 mt_40">
-        2023.5.24:作品詳細ページサムネイル箇所3Dアニメーション対応
-
-      </p>
-
       <a href="./img/work-002_l.jpg" data-lity>
         <img src="./img/work-002_l.jpg" art="SUZUSIKIKATA-web site" class="wi_100">
       </a>

@@ -75,6 +75,9 @@
 
       <h3 class="mt_40">SKILL SET</h3>
 
+      <h4>技術系（システム・ネットワーク）</h4>
+
+
       <table id="skill-table">
         <thead>
           <tr>

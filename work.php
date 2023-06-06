@@ -45,6 +45,25 @@
 
 
     <div class="thumbnail_box">
+      <!-- item-list▼ -->
+
+      <div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="logo">
+        <div class="article_img">
+          <img class="lazyload" data-src="./works/work-001/img/work-001_s.jpg" art="suzusikikata logo">
+        </div>
+
+        <div class="article_lead font_14">
+          <div class="category font_14">
+            <p>logo</p>
+          </div>
+          <h2>
+            SUZUSIKIKATA LOGO
+          </h2>
+          <div class="article_btn">
+            <a class="button_basic" href="./works/work-001/single.php">read more</a>
+          </div>
+        </div>
+      </div>
 
       <!-- list -->
 
@@ -70,24 +89,6 @@
       </div>
 
       <!-- list -->
-
-      <div class="thumbnail_list bl_searchResultBlock_item js_target" data-type="logo">
-        <div class="article_img">
-          <img class="lazyload" data-src="./works/work-001/img/work-001_s.jpg" art="suzusikikata logo">
-        </div>
-
-        <div class="article_lead font_14">
-          <div class="category font_14">
-            <p>logo</p>
-          </div>
-          <h2>
-            SUZUSIKIKATA LOGO
-          </h2>
-          <div class="article_btn">
-            <a class="button_basic" href="./works/work-001/single.php">read more</a>
-          </div>
-        </div>
-      </div>
 
     </div><!-- thumbnail_box -->
   </div><!-- second_container -->
